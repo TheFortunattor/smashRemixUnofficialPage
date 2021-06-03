@@ -1,0 +1,18 @@
+$theme-colors: (
+  "primary": #cf1010,
+  "bordo": #b22222,
+  "negro": black
+//   "red-gradient": linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(121,30,9,1) 42%, rgba(255,0,0,1) 100%)
+);
+
+$border-radius: .20rem;
+
+
+a:hover {
+    background:tomato;
+    border-radius: 10px;
+    transition: .25s;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
