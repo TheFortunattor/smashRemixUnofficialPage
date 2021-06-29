@@ -5,6 +5,14 @@ a:hover {
   transition: .25s;
 }
 
+.overlay-grey {
+  background-color: rgba(34, 36, 37, 0.4);
+}
+
+.overlay-red {
+  background-color: rgba(196, 58, 48, 0.2);
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

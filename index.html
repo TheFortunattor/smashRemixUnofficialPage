@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="styles/stylesheet.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -56,7 +54,7 @@
         <div class="container">
             <div class="row">
               <div class="col-sm text-center">
-                <img src="img/smashRemixLogo.png" alt="smashRemixLogo">
+                <img class="img-fluid" src="img/smashRemixLogo.png" alt="smashRemixLogo">
               </div>
               <div class="col-sm">
                 <h1 class="title">Smash remix is a Smash 64 mod including:</h1>
@@ -80,27 +78,27 @@
         <div class="container bg-negro text-white">
             <div class="row">
               <div class="col-sm-6 text-center align-self-center" id="newCh">
-                <h2>New characters</h2>
+                <a href="characters.html"><h2>New characters!</h2></a>
                 <p>Enjoy a new set of characters selectable from the character menu!</p>
               </div>
               <div class="col text-center">
-                <img class="rounded hoverable" src="img/chSelect.png" alt="characterSelect">
+                <img class="img-fluid" src="img/chSelect.png" alt="characterSelect">
               </div>
               <div class="w-100"></div>
               <div class="col-sm-6 text-center align-self-center" id="newStages">
-                <h2>New stages</h2>
+                <a href="stages.html"><h2>New stages!</h2></a>
                 <p>Battle on new stages to duke it out!</p>
               </div>
               <div class="col text-center">
-                <img class="rounded hoverable" src="img/srGameplay1.jpg" alt="srGameplay1" width="360" height="264">
+                <img class="img-fluid" src="img/srGameplay1.jpg" alt="srGameplay1" width="360" height="264">
               </div>
               <div class="w-100"></div>
               <div class="col-sm-6 text-center align-self-center" id="newModes">
-                <h2>New modes</h2>
+                <a href="modes.html"><h2>New Modes!</h2></a>
                 <p>Play the game in new ways with more modes!</p>
               </div>
               <div class="col text-center">
-                <img class="rounded hoverable" src="img/newModes.png" alt="newModes">
+                <img class="img-fluid" src="img/newModes.png" alt="newModes">
               </div>
             </div>
           </div>
@@ -111,20 +109,26 @@
         <div class="container">
             <h3 id="pasosInstalar">Steps to install:</h3>
             <ol>
-                <li><a href="https://github.com/JSsixtyfour/smashremix/releases">Download </a>and unzip the Smash Remix release file</li>
+                <li>
+                  <button type="button" class="btn btn-primary">
+                    <a class="text-white" href="https://github.com/JSsixtyfour/smashremix/releases">Download </a>📥
+                  </button> and unzip the Smash Remix release file</li>
                 <li>Take your legally acquired ROM and drag it onto the appropriate icon for your operating system</li>
                 <li>Example: Windows users, drag your ROM onto windows-drag-here (or windows-drag-here.bat)</li>
                 <li>Read any dialog windows that pop-up</li>
                 <li>Find your patched ROMs in the output directory</li>
-                <li>Play!</li>
+                <li>Play! 🕹️</li>
             </ol>
         </div>
     </section>
 
 
     <section id="media">
-        <div class="text-center">
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Wz9BO2z4VOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+        <div class="container embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Wz9BO2z4VOA" allowfullscreen></iframe>
+        </div>
+
+    </section>
     <footer class="bg-danger p-3">
         <s>Official </s><b>Unofficial</b> Smash 64 Remix page --- <b>Hecho por Franco Fortunatto</b>
     </footer>
